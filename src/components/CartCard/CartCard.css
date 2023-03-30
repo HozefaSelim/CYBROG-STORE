@@ -1,0 +1,39 @@
+.cart-card {
+  flex: 1 1 100%;
+  font-size: 18px;
+}
+.cart-card ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #555657;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  gap: 15px 10px;
+}
+.cart-item-image img {
+  width: 200px;
+  height: 200px;
+}
+.gaming-library-card h4 {
+  font-size: 1rem;
+}
+.totalPrice{
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .cart-card ul {
+    margin: 0 auto;
+  }
+  .cart-card ul li,
+  .cart-card ul div {
+    flex: 1 10%;
+    font-size: 15px;
+  }
+  .cart-item-image {
+    flex: 1 1 100% !important;
+  }
+  .removeBtn{
+    margin-left: 160px;
+  }
+}

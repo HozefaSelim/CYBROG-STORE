@@ -1,0 +1,26 @@
+
+.opinion-col-01 {
+  box-shadow: 5px 5px 28px var(--color-secondary);
+  padding: 35px;
+  margin: 10px 10px 20px;
+  border-radius: 5px;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+
+}
+.opinion-col-01 .media {
+  margin-bottom: 20px;
+}
+.opinion-col-01 .media .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.opinion-col-01 .media .media-body {
+  padding-left: 15px;
+  font-weight: 500;
+  margin: 5px;
+  color: var(--color-primary);
+  font-size: 20px;
+}

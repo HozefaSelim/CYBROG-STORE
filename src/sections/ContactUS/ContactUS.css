@@ -1,0 +1,96 @@
+.contact {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--color-blue);
+  border-radius: var(--border-radius-primary);
+  color: var(--color-light);
+}
+.sm-heading {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.6rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  transition: var(--transition);
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+  transition: var(--transition);
+  box-shadow: 0 0 10px var(--color-primary);
+  outline: none;
+}
+
+.contact .contact-form .btn {
+  color: #fff;
+}
+
+.contact .info {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  flex: 100%;
+}
+.info-content h5 {
+  color: var(--color-primary);
+}
+.icon{
+    font-size: 30px;
+}
+.contact .info .info-icon {
+  color: var(--color-primary);
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5ff;
+}
+
+.contact .info .info-content {
+  margin-left: 1rem;
+}
+
+/* My btn */
+
+.myBtn2 {
+  background: var(--color-primary);
+  color: var(--color-light);
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 0.7rem 1.2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.myBtn2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.myBtn2:hover:before {
+  width: 100%;
+}
+.myBtn2:hover {
+  color: var(--color-primary);
+  background-color: var(--color-light);
+}

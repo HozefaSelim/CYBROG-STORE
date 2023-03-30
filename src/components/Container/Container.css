@@ -1,0 +1,5 @@
+.main-container{
+    padding: var(--padding-primary);
+    /* background-color: var(--color-light); */
+    border-radius: var(--border-radius-primary);
+}

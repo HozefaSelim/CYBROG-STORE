@@ -1,0 +1,22 @@
+.products-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 25px;
+}
+.product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+}
+.filter {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  margin-left: 10px;
+  padding: calc(var(--padding-primary)/5);
+  border-radius: var(--border-radius-primary);
+}

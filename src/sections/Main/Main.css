@@ -1,0 +1,51 @@
+.her-main {
+  display: flex;
+}
+.hero-main {
+  /* background: url() no-repeat top right /cover; */
+  background-color: var(--color-blue);
+  color: var(--color-light);
+  border-radius: var(--border-radius-primary);
+  padding: var(--padding-primary);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: calc(var(--margin-primary) / 5);
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-title {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: calc(var(--margin-primary) / 2);
+  font-weight: var(--font-weight-bold);
+}
+.hero-title em {
+  font-style: normal;
+  color: var(--color-primary);
+}
+.hero-subtitle {
+  font-size: 20px;
+  color: var(--color-light);
+  font-weight: var(--font-weight-normal);
+  margin-bottom: calc(var(--margin-primary) / 2);
+}
+.hr {
+  margin-top: var(--margin-primary);
+  margin-bottom: -15px;
+
+  color: var(--color-light);
+}
+@media screen and (max-width: 992px) {
+  .hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .gaming-library-item-image {
+    flex: 1 1 100% ip !important;
+  }
+  .gaming-library-item-image img {
+    width: 100%;
+  } */
+}

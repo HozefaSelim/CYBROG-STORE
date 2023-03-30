@@ -1,0 +1,27 @@
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 40px 10px;
+}
+.pay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pay button {
+    padding: 15px;
+  width: 200px;
+  font-size: 20px;
+}
+.empty{
+  font-weight: 600; 
+  margin: 30px;
+}
+.emptyBtn{
+  padding: 15px;
+  width: 200px;
+  font-size: 20px;
+}

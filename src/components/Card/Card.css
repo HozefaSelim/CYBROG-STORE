@@ -1,0 +1,108 @@
+.card {
+  width: 300px;
+  height: 350px;text-decoration: none;
+}
+
+.our-products .product {
+  -webkit-box-shadow: 0 0 10px #dddde3;
+  -moz-box-shadow: 0 0 10px #dddde3;
+  box-shadow: 0 0 10px #dddde3;
+  margin: 1rem 0;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.our-products .product-img {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  height: 90%;
+  overflow: hidden;
+}
+
+.our-products .product-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.our-products .product-img .overlay:hover {
+  opacity: 1;
+}
+
+.our-products .product-img .overlay .btn {
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.our-products .product-img .overlay:hover .btn {
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.our-products .product-content {
+  padding: 1rem 0;
+}
+
+.our-products .product-price .price {
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+/* My btn */
+
+.myBtn1 {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 0.7rem 1.2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.myBtn1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.myBtn1:hover:before {
+  width: 100%;
+}
+.myBtn1:hover {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}

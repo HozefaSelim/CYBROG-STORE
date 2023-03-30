@@ -1,0 +1,30 @@
+.cyborg-navbar {
+  min-height: 100px;
+  background-color: var(--color-light);
+}
+.nav-link {
+  font-size: 16px;
+  padding: calc(var(--padding-primary) / 3);
+  border-radius: var(--border-radius-primary);
+  margin-left: calc(var(--padding-primary) / 5);
+  color: black;
+  transition: all 0.5s;
+}
+.navbar-toggler {
+  background-color: var(--color-blue);
+}
+.nav-link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  font-size: 20px;
+}
+a:active {
+  color: var(--color-primary);
+  font-size: 4px;
+}
+.basket {
+  margin-left: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--color-primary);
+}
