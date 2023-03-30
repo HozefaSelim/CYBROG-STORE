@@ -46,7 +46,7 @@ const CartListCard = () => {
           </Link>
         </>
       ) : (
-        <button className="btn btn-success">
+        <button className="btn btn-success payBtn">
           <MdPayment /> <span className="p-3">Pay</span>
         </button>
       )}

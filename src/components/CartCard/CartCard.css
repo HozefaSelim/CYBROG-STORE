@@ -18,7 +18,7 @@
 .gaming-library-card h4 {
   font-size: 1rem;
 }
-.totalPrice{
+.totalPrice {
   font-weight: bold;
 }
 @media screen and (max-width: 992px) {
@@ -33,7 +33,17 @@
   .cart-item-image {
     flex: 1 1 100% !important;
   }
-  .removeBtn{
+  .removeBtn {
     margin-left: 160px;
+  }
+}
+@media screen and (max-width: 418px) {
+  .cart-card ul {
+    justify-content: center;
+    align-items: center;
+  }
+  .removeBtn {
+    margin:20px ;
+    margin-left: 60px;
   }
 }
