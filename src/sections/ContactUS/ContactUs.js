@@ -3,8 +3,8 @@ import { PrimaryButton, SectionWrapper } from "../../components/index";
 import { MdLocationPin, MdEmail, MdCall } from "react-icons/md";
 const ContactUs = () => {
   return (
-    <SectionWrapper>
-      <div className="contact" id="contact">
+    
+      <div className="contact p-4" id="contact">
         <div className="container">
           <div className="row justify-content-center">
             <div className="section-title col-lg-7 text-center">
@@ -70,7 +70,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </SectionWrapper>
+    
   );
 };
 

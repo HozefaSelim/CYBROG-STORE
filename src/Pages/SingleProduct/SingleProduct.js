@@ -6,8 +6,7 @@ import { Context } from "../../Context/Context";
 import {Link} from 'react-router-dom'
 
 const SingleProduct = () => {
-  const { AddedProducts, AddToCart } = useContext(Context);
-  console.log(AddedProducts);
+  const { AddToCart } = useContext(Context);
   const { id } = useParams();
   const [singleProductData, setSingleProductData] = useState({});
   const getData = async (url) => {

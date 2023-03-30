@@ -9,7 +9,6 @@ const ContextProvider = ({ children }) => {
     const newArray = [...AddedProducts];
     const index = newArray.findIndex((item) => item.id === id);
     newArray.splice(index, 1);
-    console.log(newArray);
 
     setAddedProducts(newArray);
   };

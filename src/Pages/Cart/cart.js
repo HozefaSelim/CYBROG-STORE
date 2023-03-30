@@ -1,6 +1,4 @@
 import "./Cart.css";
-import { useContext, useEffect, useState } from "react";
-import { Context } from "../../Context/Context";
 import { CartListCard  ,SectionHeader,SectionWrapper} from "../../components";
 const Cart = () => {
 

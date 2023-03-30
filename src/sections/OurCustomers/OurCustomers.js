@@ -13,7 +13,7 @@ const OurCustomers = () => {
       <SectionWrapper>
         <SectionHeader>Our Customers</SectionHeader>
         <div className="container-fluid ">
-          <OwlCarousel items={2} className="owl-theme " loop autoplay={true}>
+          <OwlCarousel items={1} className="owl-theme " loop autoplay={true}>
             <div className="item opinion-col-01">
               <div className="media align-items-center">
                 <div className="img">

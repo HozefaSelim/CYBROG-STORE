@@ -2,11 +2,16 @@ import "./CartCard.css";
 import { useContext, useEffect, useState } from "react";
 import { Context } from "../../Context/Context";
 
-const CartCard = ({ id, title, price, category, description, image   , Count}) => {
-  const { DeleteFromCart  , decreaseCart , increaseCart} = useContext(Context);
- 
- 
-console.log(Count)
+const CartCard = ({
+  id,
+  title,
+  price,
+  category,
+  description,
+  image,
+  Count,
+}) => {
+  const { DeleteFromCart, decreaseCart, increaseCart } = useContext(Context);
 
   return (
     <div className="cart-card">
@@ -14,9 +19,6 @@ console.log(Count)
         <li className="cart-item-image">
           <img src={image} alt={title} />
         </li>
-        {/* <li>
-          <h4>{title}</h4>
-        </li> */}
         <li>
           <span>{category}</span>
         </li>
@@ -42,7 +44,10 @@ console.log(Count)
           </button>
         </li>
         <li>
-          <div className="totalPrice"> Price: $ {Number.parseFloat(price * Count).toFixed(2)}</div>
+          <div className="totalPrice">
+            {" "}
+            Price: $ {Number.parseFloat(price * Count).toFixed(2)}
+          </div>
         </li>
 
         <li>
@@ -54,7 +59,6 @@ console.log(Count)
           </button>
         </li>
       </ul>
-
     </div>
   );
 };

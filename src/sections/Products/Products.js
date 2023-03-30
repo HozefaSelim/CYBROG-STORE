@@ -44,9 +44,9 @@ const Products = () => {
     <div id="products">
       <SectionWrapper>
         <SectionHeader>Our Products</SectionHeader>
-        <div className="product-header">
-          <div className="input-group ">
-            <div className="form-outline">
+        <div className="product-header ">
+          <div className="input-group search">
+            <div className="form-outline ">
               <input
                 placeholder="Search With Category"
                 onChange={handleChange}
@@ -65,6 +65,7 @@ const Products = () => {
               onClick={handleClick}
               sx={{
                 color: "var(--color-dark)",
+                
               }}
             >
               {Category[selectedItem]}

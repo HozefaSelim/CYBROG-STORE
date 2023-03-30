@@ -6,22 +6,57 @@
   gap: 25px;
   margin: 40px 10px;
 }
+.result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .pay {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .pay button {
-    padding: 15px;
-  width: 200px;
-  font-size: 20px;
-}
-.empty{
-  font-weight: 600; 
-  margin: 30px;
-}
-.emptyBtn{
   padding: 15px;
   width: 200px;
   font-size: 20px;
+}
+.empty {
+  font-weight: 600;
+  margin: 30px;
+}
+.emptyBtn {
+  margin-left: 100px;
+  padding: 15px;
+  width: 200px;
+  font-size: 20px;
+}
+.totalPrice {
+  font-weight: 600;
+}
+.totalPrice span {
+  margin: 5px;
+  color: var(--color-dark);
+}
+@media screen and (max-width: 418px) {
+  .pay {
+    width: 100px;
+    padding: 7px;
+  }
+  .totalPrice {
+    font-size: 20px;
+    margin-left: 40px;
+    
+  }
+  .emptyBtn {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .pay {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
